@@ -17,7 +17,7 @@ public class Freeze implements Behavior {
 	@Override
 	public boolean takeControl() {
 		// TODO Auto-generated method stub
-		System.out.print("Read Value: " + sound.readValue());
+		//System.out.print("Read Value: " + sound.readValue());
 		return sound.readValue() >= 64;
 	}
 
